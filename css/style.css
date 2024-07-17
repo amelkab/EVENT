@@ -271,11 +271,6 @@ footer{
     .line{
         gap: 50px;
     }
-    .banner{
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
 }
 @media (max-width:1440px) {
     .lines{
@@ -283,11 +278,6 @@ footer{
     }
     .line{
         gap: 20px;
-    }
-    .banner{
-        justify-content: center;
-        align-items: center;
-        text-align: center;
     }
     
 }
@@ -307,11 +297,7 @@ footer{
     .product h3{
         margin-top: -100px;
     }
-    .banner{
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
+
 }
 @media (max-width:1200px) {
     .sale img{
@@ -342,11 +328,6 @@ footer{
     .ilins{
         flex-direction: column;
     }
-    .banner{
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
 }
 
 
@@ -369,11 +350,6 @@ footer{
     }
     .sale h1{
         font-size: 50px;
-    }
-    .banner{
-        justify-content: center;
-        align-items: center;
-        text-align: center;
     }
 }
 
@@ -424,14 +400,28 @@ footer{
         width: 200px;
         height: 250px;
     }
+}
+
+@media (max-width:375px) {
+    .ilin{
+        padding: 0;
+    }
     .banner{
+        padding: 10px 0;
         justify-content: center;
         align-items: center;
         text-align: center;
     }
+    .header-wrapper{
+        gap: 50px;
+    }
+    .product img{
+        width: 200px;
+        height: 250px;
+    }
 }
 
-@media (max-width:375px) {
+@media (max-width:320px){
     .ilin{
         padding: 0;
     }
